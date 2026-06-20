@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+}
+body{
+    background-color: aquamarine
+}
+
+h1{
+    background-color: #081b31;
+    color: white;
+    height: 5rem;
+    line-height: 5rem;
+}
+
+.container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 7rem;
+}
+
+.choice{
+    /* height: 250px;
+    width: 200px; */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.choice img:hover{
+    cursor: pointer;    
+    border: 10px solid#081b31;
+}
+
+.choice img{
+    border-radius: 50%;
+    border: 10px solid aquamarine
+}
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap :5rem;
+}
+
+#user-score , #comp-score{
+    font-size: 4rem;
+}
+
+#msg{
+    background-color: #081b31;
+    color: white;
+    font-size: 2rem;
+    margin-top: 5rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.message{
+    margin-top: 4rem;
+    margin-bottom: 7rem;
+}
+
+.hide{
+    display: none;
+    position: absolute;
+}
+
+.newbtn{
+    padding: 15PX 50PX;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: white;
+    border-radius: 10px;
+    margin: 10px;
+    margin-bottom: 180px;
+}
+.messages{
+    color: black;
+    font-size: 6vmin;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    margin-top: 250px;
+}
+/* body .messages1{
+    color: black;
+    font-size: 6vmin;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+} */
+
